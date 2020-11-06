@@ -21,8 +21,8 @@ const config = {
         },
         {
             type: "checkbox",
-            title: "Group: ",
-            columnHeader: "Group",
+            title: "Fire(s): ",
+            columnHeader: "Fire(s)",
             listItems: ["Ojibwe", "Odawa", "Potatowatomi"]
         },
     ]

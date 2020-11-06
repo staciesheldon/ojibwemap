@@ -6,7 +6,7 @@ const config = {
     center: [-85.002462, 45.246623], //Lng, Lat
     zoom: 4, //Default zoom
     title: "Nations of the Great Lakes Watershed",
-    description: "Replace with information about your application. Ex. You can search by address to sort the list below by distance. You can also filter the list by language support options, which days a location is open, and whether they have devices to use to complete the survey by phone or online.",
+    description: "View and filter tribal nations by their location in the Watershed.",
     sideBarInfo: ["Nation", "AnishinaabeName", "Translation"],
     popupInfo: ["Nation"],
     filters: [
@@ -15,8 +15,8 @@ const config = {
             title: "In the Watershed?",
             columnHeader: "Watershed",
             listItems: [
-                'Y',
-                'N',
+                'Yes',
+                'No',
             ]
         },
         {

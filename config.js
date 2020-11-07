@@ -25,10 +25,9 @@ const config = {
             columnHeader: "Fire(s)",
             listItems: ["Ojibwe", "Odawa", "Potatowatomi"]
         },
-          
         {
             type: 'dropdown',
-            title: 'Fire(s): ',
+            title: 'Fire(s):',
             columnHeader: 'Fire(s):',
             listItems: [
                 'Ojibwe',
@@ -36,5 +35,5 @@ const config = {
                 'Potawatomi',
             ]   
         }
-    }
+    ]
 };

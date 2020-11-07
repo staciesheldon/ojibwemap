@@ -8,12 +8,21 @@ const config = {
     title: "Nations of the Great Lakes Watershed",
     description: "View and filter tribal nations by their location in the Watershed.",
     sideBarInfo: ["Nation", "AnishinaabeName", "Translation"],
-    popupInfo: ["Nation"],
+    popupInfo: ["Nation, StreetAddress"],
     filters: [
         {
             type: "dropdown",
             title: "In the Watershed?",
             columnHeader: "Watershed",
+            listItems: [
+                'Yes',
+                'No',
+            ]
+        },
+        {
+            type: "dropdown",
+            title: "On Lake Coast?",
+            columnHeader: "Coast",
             listItems: [
                 'Yes',
                 'No',

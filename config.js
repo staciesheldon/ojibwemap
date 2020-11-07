@@ -24,20 +24,17 @@ const config = {
             title: "Fire(s): ",
             columnHeader: "Fire(s)",
             listItems: ["Ojibwe", "Odawa", "Potatowatomi"]
-            ]
         },
           
         {
             type: 'dropdown',
-            title: 'Title of filter: ',
-            columnHeader: 'CSV Filter Column Name',
+            title: 'Fire(s): ',
+            columnHeader: 'Fire(s):',
             listItems: [
-            'filter one',
-            'filter two',
-            'filter three',
-            'filter four',
-            'filter five',
-            'filter six',
-            'filter seven'
-        ]
+                'Ojibwe',
+                'Odawa',
+                'Potawatomi',
+            ]   
+        }
+    }
 };

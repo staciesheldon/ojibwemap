@@ -466,6 +466,8 @@ map.on("load", function () {
         map.on("mouseleave", "locationData", function () {
             map.getCanvas().style.cursor = "";
         });
+        // Add zoom and rotation controls to the map.
+        map.addControl(new mapboxgl.NavigationControl());
         buildLocationList(geojsonData);
     };
 });

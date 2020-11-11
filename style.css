@@ -9,6 +9,10 @@
 
 }
 
+#removeFilters { 
+    background-color: #333333; 
+}
+
 .theme{
     background-color: #1A1919;
 }
@@ -91,6 +95,3 @@
     display: block;
 
   }
-
-
-  

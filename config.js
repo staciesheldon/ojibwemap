@@ -8,7 +8,7 @@ const config = {
     title: "Anishinaabewakiing - Anishinaabe Territory",
     description: "View and filter tribal nations by their location in the Watershed.",
     sideBarInfo: ["Nation", "AnishinaabeName", "Translation"],
-    popupInfo: ["Nation", "Logo"],
+    popupInfo: ["Nation", "Logo", "StreetAddress"],
     filters: [
         {
             type: "dropdown",

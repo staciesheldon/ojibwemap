@@ -6,7 +6,7 @@ const config = {
     center: [-85.002462, 45.246623], //Lng, Lat
     zoom: 4, //Default zoom
     title: "Anishinaabewakiing  -  Anishinaabe Territory",
-    description: "This is a representation of all Anishinaabe Nations and their position in relation to the Great Lakes Watershed in the year 2021.",
+    description: "This is a representation of all Anishinaabe Nations and their current position in relation to the Great Lakes Watershed.",
     sideBarInfo: ["Nation", "AnishinaabeName", "Translation"],
     popupInfo: ["Nation", "Logo", "StreetAddress", "WebAddress"],
     filters: [
